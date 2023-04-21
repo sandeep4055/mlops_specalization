@@ -50,6 +50,7 @@ Deployment is a crucial stage in an ML project because it's the point where the 
 <ol>
 <h3>
  <li>Conecept Drift & Data Drift</li>
+ </h3>
  <h3>Concept drift</h3>
  <ul>
  <li>
@@ -71,7 +72,7 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 </li>
 </ul>
  
- <li>Software Engineering issues</li>
+ <h3> <li>Software Engineering issues</li> </h3>
  <h3>
 </ol>
 </ol>
