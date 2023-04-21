@@ -49,7 +49,7 @@ Deployment is a crucial stage in an ML project because it's the point where the 
 </li>
 </ul>
 
-![deplomentgif](https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif)
+<img src="https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif" alt="deployment" width="800" height="450">
 
 <h2>Key Challenges in deployment:</h2>
 <ol>
@@ -74,6 +74,9 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 </p>
 </li>
 </ul>
+<p>Concept Drift and Data Drift in Machine Learning Models (Illustrated)</p>
+		
+<img src="https://user-images.githubusercontent.com/70133134/233527662-2fdef9f9-3888-47d6-bb8b-b2902e6d8d43.png" width="600" height="400">
  
  <h3> <li>Software Engineering issues</li> </h3> 
  <ul>
