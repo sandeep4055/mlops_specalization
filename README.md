@@ -26,6 +26,8 @@
 </ol>
 These steps provide a high-level overview of the typical stages involved in an ML project, but the exact details may vary depending on the specific project and its requirements.
 
+![mlprojectsteps](https://user-images.githubusercontent.com/70133134/233526364-96b1a927-5d7a-42eb-bf3a-c51251afc28c.jpg)
+
 # Here's a more detailed breakdown of each step involved in an ML project:
 <ol>
 <h1><li>
