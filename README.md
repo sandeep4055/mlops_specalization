@@ -101,4 +101,15 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 <p>Each of these deployment strategies has its own benefits and drawbacks, and the choice of strategy depends on the specific requirements of the ML system.</p>
  </ul>
  
+ <h2>Automation Levels</h2>
+ 
+ <p>The different degrees of automation in an ML system are:</p>
+	<ul>
+		<li><strong>Human Only:</strong> Tasks are performed entirely by human operators without any automation.</li>
+		<li><strong>Shadow Mode:</strong> Automation is used to assist humans in performing tasks, but humans retain full control and decision-making power.</li>
+		<li><strong>AI Assistance:</strong> Automation is used to assist humans in performing tasks, and AI algorithms provide recommendations or suggestions to guide human decision-making.</li>
+		<li><strong>Partial Automation:</strong> Some aspects of the task are automated, but humans still play a significant role in decision-making and control.</li>
+		<li><strong>Full Automation:</strong> The task is completely automated, and humans are only involved in monitoring or supervising the automated system.</li>
+	</ul>
+ 
 </ol>
