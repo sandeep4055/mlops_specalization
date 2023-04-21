@@ -48,9 +48,7 @@ Deployment is a crucial stage in an ML project because it's the point where the 
 </ul>
 <h2>Key Challenges in deployment:</h2>
 <ol>
-<h3>
- <li>Conecept Drift & Data Drift</li>
- </h3>
+<h3> <li> Conecept Drift & Data Drift </li> </h3>
  <h3>Concept drift</h3>
  <ul>
  <li>
@@ -72,7 +70,20 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 </li>
 </ul>
  
- <h3> <li>Software Engineering issues</li> </h3>
- <h3>
+ <h3> <li>Software Engineering issues</li> </h3> 
+ <ul>
+    <li><strong>Real-time or Batch:</strong> Real-time deployment involves making predictions on incoming data as soon as it arrives, while batch deployment involves making predictions on a set of data at once. Real-time deployment is often used for applications where quick responses are needed, such as fraud detection or recommendation systems, while batch deployment is used for applications where latency is less critical, such as training or offline analytics.</li>
+ 
+ <li><strong>Cloud or Edge/Browser:</strong> Cloud deployment involves hosting the machine learning model on a cloud platform such as Amazon Web Services, Google Cloud Platform, or Microsoft Azure, while edge or browser deployment involves hosting the model on a local device or browser. Cloud deployment offers scalability and accessibility, while edge or browser deployment offers lower latency and privacy.</li>
+
+<li><strong>Compute Resources (CPU/GPU/TPU):</strong> The type of compute resources used in deployment can have a significant impact on the performance and cost of the machine learning model. Central processing units (CPUs) are commonly used for small-scale deployments, while graphics processing units (GPUs) and tensor processing units (TPUs) are used for larger-scale deployments that require high parallelism and faster processing times.</li>
+
+<li><strong>Logging:</strong> Logging involves recording various metrics and events related to the machine learning model's performance, such as accuracy, latency, throughput, and error rates. This data is used to monitor the model's performance over time, identify issues or anomalies, and improve the model as needed.</li>
+
+<li><strong>Security & Privacy:</strong> Security and privacy are critical considerations in machine learning deployment, as models can contain sensitive or confidential data. It's important to implement appropriate security measures such as data encryption, access control, and threat monitoring to prevent unauthorized access or attacks.</li>
+
+<li><strong>Latency & Throughput:</strong> Latency and throughput are performance metrics that measure the time it takes for the machine learning model to respond to incoming requests and the number of requests it can handle per unit of time. Low latency and high throughput are critical for real-time applications such as recommendation systems or fraud detection, while batch applications may have more flexibility in these metrics.</li>
+
+ </ul> 
 </ol>
 </ol>
