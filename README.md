@@ -24,7 +24,7 @@
 <li>Monitor and maintain the system to ensure that it continues to perform well over time. This involves monitoring key performance metrics and making updates to the model and infrastructure as necessary.</li>
 </ul>
 </ol>
-These steps provide a high-level overview of the typical stages involved in an ML project, but the exact details may vary depending on the specific project and its requirements.
+These steps provide a high-level overview of the typical stages involved in an ML project, but the exact details may vary depending on the specific project and its requirements.<br><br>
 
 ![mlprojectsteps](https://user-images.githubusercontent.com/70133134/233526364-96b1a927-5d7a-42eb-bf3a-c51251afc28c.jpg)
 
@@ -47,7 +47,7 @@ These steps provide a high-level overview of the typical stages involved in an M
 <li>
 Deployment is a crucial stage in an ML project because it's the point where the model is actually put into use to solve real-world problems. A well-deployed and well-monitored ML model can provide a significant business value, improve efficiency, and save time and money.
 </li>
-</ul>
+</ul><br>
 
 <img src="https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif" alt="deployment" width="800" height="450">
 
@@ -74,9 +74,9 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 </p>
 </li>
 </ul>
-<p>Concept Drift and Data Drift in Machine Learning Models (Illustrated)</p>
+<p>Concept Drift and Data Drift in Machine Learning Models (Illustrated)</p><br>
 		
-<img src="https://user-images.githubusercontent.com/70133134/233527662-2fdef9f9-3888-47d6-bb8b-b2902e6d8d43.png" width="600" height="400">
+<img src="https://user-images.githubusercontent.com/70133134/233527662-2fdef9f9-3888-47d6-bb8b-b2902e6d8d43.png" width="700" height="450">
  
  <h3> <li>Software Engineering issues</li> </h3> 
  <ul>
