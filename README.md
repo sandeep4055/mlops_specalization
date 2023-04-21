@@ -1,6 +1,8 @@
-# mlops_specalization
+# Mlops_specalization
  
-<p>This repo has the Notes and Code with respective <b>Deeplearning.ai</b> course</p>
+<h2>This repo has the notes and code of <strong>Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)</strong></h2>
+
+<img src="https://user-images.githubusercontent.com/70133134/233529477-8487cc0b-432d-415e-8030-b8fe8fbcbbe5.png" width="100%">
 
 # Steps of an Ml Project :
 <ol>
