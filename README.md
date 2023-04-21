@@ -48,6 +48,9 @@ These steps provide a high-level overview of the typical stages involved in an M
 Deployment is a crucial stage in an ML project because it's the point where the model is actually put into use to solve real-world problems. A well-deployed and well-monitored ML model can provide a significant business value, improve efficiency, and save time and money.
 </li>
 </ul>
+
+![deplomentgif](https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif)
+
 <h2>Key Challenges in deployment:</h2>
 <ol>
 <h3> <li> Conecept Drift & Data Drift </li> </h3>
