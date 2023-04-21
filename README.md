@@ -83,7 +83,22 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 <li><strong>Security & Privacy:</strong> Security and privacy are critical considerations in machine learning deployment, as models can contain sensitive or confidential data. It's important to implement appropriate security measures such as data encryption, access control, and threat monitoring to prevent unauthorized access or attacks.</li>
 
 <li><strong>Latency & Throughput:</strong> Latency and throughput are performance metrics that measure the time it takes for the machine learning model to respond to incoming requests and the number of requests it can handle per unit of time. Low latency and high throughput are critical for real-time applications such as recommendation systems or fraud detection, while batch applications may have more flexibility in these metrics.</li>
-
- </ul> 
+ </ul>  
 </ol>
+ 
+<h2>Deployment Patterns in ML Systems</h2>
+<p>There are several deployment patterns used in machine learning (ML) systems. Three common patterns are shadow deployment, canary deployment, and blue-green deployment:</p>
+ 
+<ul>
+<h3><li>Shadow Deployment</h3>
+<p>In a shadow deployment, a new version of the ML model is deployed alongside the existing model, but the traffic is still directed to the existing model. The new model processes a copy of the traffic and the output is compared to the output of the existing model to ensure that the new model is performing correctly. Once the new model has been validated, traffic can be gradually shifted to the new model.</p>
+ 
+<h3><li>Canary Deployment</h3>
+<p>In a canary deployment, a small percentage of traffic is directed to the new version of the ML model while the rest of the traffic is directed to the existing model. The performance of the new model is monitored and compared to the existing model to ensure that it is performing correctly. If the new model is performing well, traffic can gradually be shifted to the new model.</p>
+ 
+<h3><li>Blue-Green Deployment</h3>
+<p>In a blue-green deployment, two identical environments are set up, with one environment (the blue environment) running the current version of the ML model and the other environment (the green environment) running the new version of the model. Traffic is initially directed to the blue environment, while the green environment is set up and tested. Once the green environment has been validated, traffic can be gradually shifted to the green environment. If any issues are found with the new model, traffic can easily be redirected back to the blue environment.</p>
+<p>Each of these deployment strategies has its own benefits and drawbacks, and the choice of strategy depends on the specific requirements of the ML system.</p>
+ </ul>
+ 
 </ol>
