@@ -122,5 +122,55 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 		<li><strong>Full Automation:</strong> The task is completely automated, and humans are only involved in monitoring or supervising the automated system.</li>
 	</ul>
 <h1> <li> Monitoring </li> </h1> 
- 
+<p>
+Monitoring is a critical component of machine learning systems, as it allows for the detection of issues and anomalies that can affect the performance and accuracy of the models. Monitoring involves the collection of various metrics and events related to the ML system, such as model accuracy, latency, throughput, and error rates.
+</p>
+
+<p> Some key areas that should be monitored in an ML system include: </p>
+
+<ul>
+
+<li><strong> Data Quality:</strong>  Monitoring the quality of the input data is important to ensure that the data is representative of the real-world scenarios and that it is free from errors, missing values, or outliers. </li>
+
+<li><strong> Model Performance:</strong>  Monitoring the performance of the model is critical to detect issues such as overfitting, underfitting, or concept drift. Metrics such as accuracy, precision, recall, F1 score, and AUC can be used to evaluate the model's performance. </li>
+
+<li><strong> Resource Utilization:</strong>  Monitoring the resource utilization of the ML system, such as CPU, GPU, memory, and storage, is important to optimize the system's performance and reduce costs. </li>
+
+<li><strong> Anomalies and Outliers:</strong>  Monitoring for anomalies and outliers in the input data and the model's predictions can help detect issues such as data drift, model bias, or attacks on the system. </li>
+
+<li><strong> Feedback Loop:</strong>  Monitoring the feedback loop between the ML system and the end-users is important to evaluate the system's effectiveness in meeting the user's needs and to identify areas for improvement. </li>
+
+</ul>
+</br>
+<p> To effectively monitor an ML system, it's important to set up automated monitoring processes that can generate alerts or notifications when issues or anomalies are detected. Monitoring should be performed regularly, and the monitoring processes should be updated as the system evolves and new issues are identified.</p>
+
+<h2> These metrics can be broadly classified into three categories:</h2>
+<ol>
+
+<li><strong> Input metrics:</strong> Input metrics measure the quality and characteristics of the input data that is fed into the machine learning system. These metrics can help identify issues related to data quality, data preprocessing, and data bias. Some examples of input metrics include:</li>
+<ul>
+<li><strong> Data completeness:</strong> Measures the percentage of missing data in the input dataset.</li>
+<li><strong> Data distribution:</strong> Measures the statistical properties of the input data, such as mean, variance, and skewness.</li>
+<li><strong> Data bias:</strong> Measures the presence of bias in the input data, such as demographic bias or sampling bias.</li>
+</ul>
+
+<li><strong> Output metrics:</strong> Output metrics measure the performance and accuracy of the machine learning system in producing predictions or classifications. These metrics can help identify issues related to model performance, concept drift, or data drift. Some examples of output metrics include:</li>
+<ul>
+<li><strong> Accuracy:</strong> Measures the percentage of correct predictions made by the model.</li>
+<li><strong> Precision:</strong> Measures the percentage of true positive predictions out of all positive predictions made by the model.</li>
+<li><strong> Recall:</strong> Measures the percentage of true positive predictions out of all actual positive cases in the input data.</li>
+<li><strong> F1 score:</strong> A combined metric that balances precision and recall.</li>
+</ul>
+
+<li><strong> Software metrics:</strong> Software metrics measure the behavior and performance of the machine learning system at the software level. These metrics can help identify issues related to model scalability, computational efficiency, or software bugs. Some examples of software metrics include:</li>
+<ul>
+<li><strong>Memory usage:</strong> Measures the amount of memory used by the machine learning system during training or prediction.</li>
+<li><strong>CPU usage:</strong> Measures the amount of CPU resources used by the machine learning system during training or prediction.</li>
+<li><strong>Latency:</strong> Measures the time it takes for the machine learning system to produce a prediction or classification.</li>
+</ul>
+
+</ol></br>
+
+<p> By monitoring these metrics, machine learning engineers and data scientists can gain insights into the behavior and performance of the system, and identify areas for improvement or optimization.</p>
+
 </ol>
