@@ -121,5 +121,6 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 		<li><strong>Partial Automation:</strong> Some aspects of the task are automated, but humans still play a significant role in decision-making and control.</li>
 		<li><strong>Full Automation:</strong> The task is completely automated, and humans are only involved in monitoring or supervising the automated system.</li>
 	</ul>
+<h1> <li> Monitoring </li> </h1> 
  
 </ol>
