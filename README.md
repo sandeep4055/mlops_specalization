@@ -122,6 +122,7 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 		<li><strong>Full Automation:</strong> The task is completely automated, and humans are only involved in monitoring or supervising the automated system.</li>
 	</ul>
 <h1> <li> Monitoring </li> </h1> 
+
 <p>
 Monitoring is a critical component of machine learning systems, as it allows for the detection of issues and anomalies that can affect the performance and accuracy of the models. Monitoring involves the collection of various metrics and events related to the ML system, such as model accuracy, latency, throughput, and error rates.
 </p>
