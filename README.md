@@ -172,5 +172,16 @@ Monitoring is a critical component of machine learning systems, as it allows for
 </ol></br>
 
 <p> By monitoring these metrics, machine learning engineers and data scientists can gain insights into the behavior and performance of the system, and identify areas for improvement or optimization.</p>
+<p>
+Yes, in addition to the input, output, and software metrics, customized metrics can also be defined to monitor specific aspects of the machine learning system that are important to a particular application or use case. Customized metrics can help track business-specific key performance indicators (KPIs), measure the success of specific features or functionalities, or provide more granular insights into the system's performance.
+</p>
+
+<p>
+For example, in an e-commerce recommendation system, a customized metric could be defined to measure the click-through rate (CTR) of recommended products. This metric would be specific to the application and would provide valuable insights into the performance of the recommendation algorithm in terms of user engagement and revenue generation.
+</p>
+
+<p>
+Customized metrics can be implemented using various monitoring tools and platforms, and can be integrated with existing input, output, and software metrics to provide a comprehensive view of the system's performance. It's important to carefully define and select customized metrics that are relevant to the business goals and objectives, and to regularly review and update them as the system evolves over time.
+</p>
 
 </ol>
