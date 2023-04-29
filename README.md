@@ -32,11 +32,31 @@ These steps provide a high-level overview of the typical stages involved in an M
 
 # Here's a more detailed breakdown of each step involved in an ML project:
 <ol>
-<h1><li>
- 
- Deployment: 
- 
- </li></h1>
+
+<h1> <li> Modelling </li> </h1>
+
+<p>The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data.The output from modeling is a trained model that can be used for inference, making predictions on new data points.</p>
+
+<p> The objective of machine learning is not a model that does well on training data, but one that demonstrates it satisfies the business need and can be deployed on live data.</p>
+
+***Modeling in machine learning is an iterative process***
+
+<p> The major steps involved in modelling are : </p>
+
+- Select and train model
+- Performing error analysis
+
+
+
+<h2> key Challenges in Modelling: </h2>
+
+<h2> Why low average in test error isn't good enough </h2>
+
+<h2> Establish </h2>
+
+
+
+<h1><li> Deployment  </li></h1>
  
 <ul>
  <li>
