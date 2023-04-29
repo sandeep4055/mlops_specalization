@@ -2,7 +2,7 @@
  
 <h2>This repo has the notes and code of <strong>Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)</strong></h2>
 
-<img src="https://user-images.githubusercontent.com/70133134/233529477-8487cc0b-432d-415e-8030-b8fe8fbcbbe5.png" width="100%">
+<img src="https://user-images.githubusercontent.com/70133134/233529477-8487cc0b-432d-415e-8030-b8fe8fbcbbe5.png" height="400">
 
 # What is AI System?
 An AI system is typically made up of two primary components: code and data.
@@ -13,8 +13,8 @@ The data component of an AI system refers to the **training** and **testing** da
 
 In many AI systems, the code and data components are interdependent, with the code relying on the data to make predictions and the data being shaped by the code to improve the accuracy of those predictions. As a result, the design and implementation of an AI system often requires careful consideration of both components, as well as the interactions between them.
 
+<img src="https://user-images.githubusercontent.com/70133134/235284994-325b0541-abeb-4bb7-a6df-be1acc2df34b.png" alt="aivsml"  height="350" >
 
-![Screenshot (24)](https://user-images.githubusercontent.com/70133134/235284994-325b0541-abeb-4bb7-a6df-be1acc2df34b.png)
 
 # AI system vs ML system
 
@@ -25,6 +25,9 @@ An AI system is a broader term that refers to any system that is designed to per
 On the other hand, a machine learning system is a specific type of AI system that uses statistical and mathematical techniques to enable machines to learn from data, without being explicitly programmed to do so. Machine learning systems rely on training data to build models that can make predictions or classify new data points. These models can then be used to perform a wide range of tasks, such as image recognition, speech recognition, and natural language processing.
 
 In summary, while all machine learning systems are AI systems, not all AI systems are machine learning systems. AI systems can use a variety of techniques and algorithms to perform tasks, while machine learning specifically involves using statistical and mathematical models to learn from data.
+
+
+<img src="https://user-images.githubusercontent.com/70133134/235285425-e2d186bb-361e-470b-b715-75636a65671f.jpg" alt="aivsml"  height="350" >
 
 
 # What is AI/ML project?
@@ -123,7 +126,7 @@ Deployment is a crucial stage in an ML project because it's the point where the 
 </li>
 </ul><br>
 
-<img src="https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif" alt="deployment" width="800" height="450">
+<img src="https://user-images.githubusercontent.com/70133134/233526817-8e492017-1ca3-42eb-8a69-56ab2094cbbf.gif" alt="deployment"  height="450">
 
 <h2>Key Challenges in deployment:</h2>
 <ol>
@@ -150,7 +153,7 @@ In both cases, concept drift and data drift can lead to a degradation in the per
 </ul>
 <p>Concept Drift and Data Drift in Machine Learning Models (Illustrated)</p><br>
 		
-<img src="https://user-images.githubusercontent.com/70133134/233527662-2fdef9f9-3888-47d6-bb8b-b2902e6d8d43.png" width="700" height="450">
+<img src="https://user-images.githubusercontent.com/70133134/233527662-2fdef9f9-3888-47d6-bb8b-b2902e6d8d43.png"  height="450">
  
  <h3> <li>Software Engineering issues</li> </h3> 
  <ul>
