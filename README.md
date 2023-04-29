@@ -4,6 +4,49 @@
 
 <img src="https://user-images.githubusercontent.com/70133134/233529477-8487cc0b-432d-415e-8030-b8fe8fbcbbe5.png" width="100%">
 
+# What is AI System?
+An AI system is typically made up of two primary components: code and data.
+
+The code component of an AI system refers to the **algorithms** and **programming logic** that enable the system to perform its intended function. This code may be written in various programming languages, depending on the specific technology being used.
+
+The data component of an AI system refers to the **training** and **testing** data that the system uses to learn and make predictions. This data can come from a variety of sources, including sensors, databases, and user interactions, and it may be structured, unstructured, or semi-structured.
+
+In many AI systems, the code and data components are interdependent, with the code relying on the data to make predictions and the data being shaped by the code to improve the accuracy of those predictions. As a result, the design and implementation of an AI system often requires careful consideration of both components, as well as the interactions between them.
+
+
+![Screenshot (24)](https://user-images.githubusercontent.com/70133134/235284994-325b0541-abeb-4bb7-a6df-be1acc2df34b.png)
+
+# AI system vs ML system
+
+AI (Artificial Intelligence) systems and ML (Machine Learning) systems are related concepts, but they are not exactly the same thing.
+
+An AI system is a broader term that refers to any system that is designed to perform tasks that would normally require human intelligence to complete. AI systems can include machine learning techniques, as well as other types of algorithms like rule-based systems, genetic algorithms, and fuzzy logic systems. AI systems can also involve various types of data processing, such as natural language processing, image recognition, and decision making.
+
+On the other hand, a machine learning system is a specific type of AI system that uses statistical and mathematical techniques to enable machines to learn from data, without being explicitly programmed to do so. Machine learning systems rely on training data to build models that can make predictions or classify new data points. These models can then be used to perform a wide range of tasks, such as image recognition, speech recognition, and natural language processing.
+
+In summary, while all machine learning systems are AI systems, not all AI systems are machine learning systems. AI systems can use a variety of techniques and algorithms to perform tasks, while machine learning specifically involves using statistical and mathematical models to learn from data.
+
+
+# What is AI/ML project?
+
+An AI/ML project is a project that involves developing and deploying an artificial intelligence or machine learning system to solve a specific problem or achieve a specific goal. These projects can take a wide variety of forms, depending on the industry, domain, and application.
+
+Some common types of AI/ML projects include:
+<ol>
+<li> Image recognition: developing a system that can accurately identify and classify images.</li>
+
+<li> Natural language processing: developing a system that can analyze and understand human language, such as chatbots or sentiment analysis tools.</li>
+
+<li> Predictive modeling: developing a system that can predict future outcomes based on historical data, such as stock price predictions or demand forecasting.	</li>
+
+<li> Recommendation systems: developing a system that can recommend products or services to users based on their preferences or behavior, such as Netflix or Amazon's recommendation engines.</li>
+
+<li> Autonomous vehicles: developing a system that can safely and efficiently operate a vehicle without human intervention.</li>	
+</ol>
+
+AI/ML projects can be complex and challenging, as they require expertise in data science, machine learning algorithms, software engineering, and often domain-specific knowledge. The success of these projects depends on careful planning, data collection and preprocessing, model training and evaluation, and deployment and monitoring of the system in production.
+
+
 # Steps of an Ml Project :
 <ol>
 <li>Scoping</li>
@@ -32,12 +75,16 @@ These steps provide a high-level overview of the typical stages involved in an M
 
 # Here's a more detailed breakdown of each step involved in an ML project:
 <ol>
+	
+	
 
 <h1> <li> Modelling </li> </h1>
+	
+
 
 <p>The process of modeling means training a machine learning algorithm to predict the labels from the features, tuning it for the business need, and validating it on holdout data.The output from modeling is a trained model that can be used for inference, making predictions on new data points.</p>
 
-<p> The objective of machine learning is not a model that does well on training data, but one that demonstrates it satisfies the business need and can be deployed on live data.</p>
+**The objective of machine learning is not a model that does well on training data, but one that demonstrates it satisfies the business need and can be deployed on live data.**
 
 	
 ***Modelling is an iterative process*** where you start with a model and hyperparameters and use them to train the model on the data. Then, you analyze the errors and use the insights to improve the model, the hyperparameters, or the data. This loop is repeated many times to achieve better performance. Making good choices about how to modify the data, model, or hyperparameters is critical to improving the model's performance quickly.
@@ -48,10 +95,12 @@ These steps provide a high-level overview of the typical stages involved in an M
 
 - Select and train model(includes hyperparameter tuning)
 - Performing error analysis
-
+	
 
 
 <h2> key Challenges in Modelling: </h2>
+	
+
 
 <h2> Why low average in test error isn't good enough </h2>
 
