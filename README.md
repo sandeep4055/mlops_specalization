@@ -39,11 +39,14 @@ These steps provide a high-level overview of the typical stages involved in an M
 
 <p> The objective of machine learning is not a model that does well on training data, but one that demonstrates it satisfies the business need and can be deployed on live data.</p>
 
-***Modeling in machine learning is an iterative process***
+	
+***Modelling is an iterative process*** where you start with a model and hyperparameters and use them to train the model on the data. Then, you analyze the errors and use the insights to improve the model, the hyperparameters, or the data. This loop is repeated many times to achieve better performance. Making good choices about how to modify the data, model, or hyperparameters is critical to improving the model's performance quickly.
 
-<p> The major steps involved in modelling are : </p>
+<p> Once you have achieved a good model, you should perform a richer error analysis and audit the system to make sure it is working correctly before pushing it to a production deployment. This step is important to ensure that the model is effective, reliable, and scalable in the production environment.</p>
 
-- Select and train model
+<p> So the major steps involved in modelling are : </p>
+
+- Select and train model(includes hyperparameter tuning)
 - Performing error analysis
 
 
