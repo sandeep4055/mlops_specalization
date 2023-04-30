@@ -106,6 +106,8 @@ There are two different approaches/philosophies while building machine learning 
 - **Model-centric approach:** In the model-centric approach, the focus is on designing and training a sophisticated model that can learn complex patterns and relationships in the data, even if the data is noisy or incomplete. The idea is that if the model is expressive enough, it can capture the underlying structure of the data, and produce accurate predictions even if the input data is imperfect. In this approach, the model is seen as the key to achieving good performance, and the emphasis is on designing and training a model that is well-suited to the task at hand.
 
 <p>Both approaches have their advantages and disadvantages, and the choice of approach depends on the specific problem and domain. The data-centric approach is often more effective when the data is plentiful and well-structured, while the model-centric approach is often more effective when the data is complex or noisy, or when the problem requires a high degree of accuracy or flexibility.</p>
+	
+***In machine learning, having good quality data is crucial for model performance, and even the best models will struggle with bad data, while models with suboptimal performance can still perform well with high-quality data.***
 
 ## The key challenges in model development are:
 
@@ -117,7 +119,37 @@ There are two different approaches/philosophies while building machine learning 
 	
 
 
-<h2> Why low average in test error isn't good enough </h2>
+## Why low average in test error isn't good enough
+Low average test error scores are a good indication that a model is performing well on the test data, but they are not always enough to get a model into production. There are several reasons for this:
+
+### Performance on disproportionately important examples :
+
+Even if the model performs well on the test data, it may still fail to perform well on disproportionately important examples. Disproportionately important examples refer to the subset of examples in a dataset that have a greater impact on the overall performance of the model than other examples. These examples are often critical to the success of the model, and their accuracy is crucial for achieving good performance on the relevant business metric.
+
+For example, in a medical diagnosis model, correctly identifying patients with a high risk of a rare disease may be more important than correctly classifying patients with a low risk of the disease. Similarly, in a fraud detection model, correctly flagging high-value transactions as fraudulent may be more important than accurately detecting low-value fraudulent transactions.
+
+Failing to accurately predict disproportionately important examples can have significant consequences, such as missed diagnoses or fraudulent transactions slipping through the system. Therefore, it is important to carefully identify and prioritize these examples in the model development process and evaluate the model's performance on them separately from the overall test set.
+	
+### Performance on key slices of dataset :
+
+Another reason why low average test error scores are not enough to get a model into production is the performance on key slices of the dataset. Key slices are subsets of the data that are particularly relevant to the problem being solved, such as examples with certain features or from certain subgroups.
+
+For example, in a hiring model, it may be important to ensure that the model is not biased against candidates of a certain gender or race. In this case, the model's performance on key slices, such as male and female candidates or candidates from different racial groups, would be crucial to evaluate separately from the overall test set.
+
+Similarly, in a recommendation system, the model's performance on key slices of the data, such as users with a high purchase history or users with a high influence on the platform, may be disproportionately important for the overall success of the system.
+
+Failing to accurately predict key slices of the data can lead to biased or ineffective models, which can have serious consequences in the real world. Therefore, it is important to carefully identify and prioritize these key slices in the model development process and evaluate the model's performance on them separately from the overall test set.
+
+### Rare Classes :
+
+Rare classes refer to the subset of examples in a dataset that occur infrequently, making up only a small proportion of the overall dataset. These classes are often difficult to model accurately because the model may not have enough examples to learn from, and they are more prone to being misclassified.
+
+For example, in a classification problem involving a dataset of customer reviews, the rare classes might be reviews with low ratings or reviews that are flagged as spam. Although these classes may be infrequent, correctly identifying them can be crucial for making informed decisions.
+
+Failing to accurately predict rare classes can lead to significant consequences, such as missed opportunities or incorrect decisions. Therefore, it is important to carefully identify and prioritize these classes in the model development process and evaluate the model's performance on them separately from the overall test set.
+	
+
+	
 
 <h2> Establish </h2>
 
