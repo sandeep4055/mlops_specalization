@@ -221,7 +221,39 @@ Prioritizing which error patterns to address depends on several factors, includi
 
 By carefully considering these factors and prioritizing error patterns accordingly, model developers can focus their efforts on the areas that will have the greatest impact on the model's performance.
 	
+## Performance auditing 
 
+Performance auditing in ML model development refers to the process of evaluating the performance of a model in production and identifying any discrepancies or deviations from the expected results. This is important to ensure that the model is still performing as intended and to identify any areas for improvement.
+
+For example, let's say we have a customer churn prediction model for a telecom company. The model was initially trained on historical data and achieved high accuracy during testing. However, after deploying the model in production, the company notices that the number of false positives (i.e., customers predicted to churn but who actually don't) is much higher than expected.
+
+To audit the performance of the model, the company may collect and analyze additional data from production, such as customer behavior or feedback. They may also compare the model's performance with the performance of other models or industry benchmarks. Through this auditing process, they may discover that the model was not properly accounting for certain types of customers or that the data used for training the model did not fully represent the diversity of the customer base.
+
+Based on the findings from the performance audit, the company may choose to retrain the model with additional data or adjust the model's parameters to improve its performance in production. This iterative process of auditing and improving the model is crucial for ensuring that it continues to provide accurate and reliable predictions over time.
+
+### Machine learning auditing frameworks
+#
+
+Machine learning auditing frameworks are a set of tools and methodologies used to assess and monitor the performance, fairness, and privacy of machine learning models. Some popular ML auditing frameworks include:
+
+**1. AI Fairness 360:** Developed by IBM, this framework provides a set of algorithms and metrics to measure and mitigate bias in machine learning models.
+
+**2. TensorBoard:** This is a visualization tool developed by Google for monitoring and debugging TensorFlow models. It provides an interface to analyze the performance of the model, visualize the training process, and identify errors and anomalies.
+
+**3. What-If Tool:** Developed by Google, this tool provides an interactive interface for exploring and debugging machine learning models. It allows users to perform "what-if" analyses to understand how changes in the input data or model parameters affect the model's output.
+
+**4. TensorFlow Model Analysis:** This is an open-source tool developed by Google for evaluating and debugging TensorFlow models. It provides a set of metrics and visualization tools to assess the model's performance and identify errors.
+
+**5. LIME:** This is a framework for explaining the predictions of machine learning models. It provides a set of algorithms for generating local explanations of individual predictions, which can help users understand how the model is making decisions.
+
+These frameworks can be used to audit the performance and behavior of machine learning models, and to identify and address issues related to fairness, accuracy, privacy, and security.
+
+
+
+
+
+
+Regenerate response
 
 
 
