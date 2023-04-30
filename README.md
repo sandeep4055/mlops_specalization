@@ -148,10 +148,36 @@ For example, in a classification problem involving a dataset of customer reviews
 
 Failing to accurately predict rare classes can lead to significant consequences, such as missed opportunities or incorrect decisions. Therefore, it is important to carefully identify and prioritize these classes in the model development process and evaluate the model's performance on them separately from the overall test set.
 	
+## How Do We Determine Whether a Model is Good Enough?
+To determine whether a model is good enough, we need to evaluate its performance based on a set of metrics that are relevant to the specific problem at hand. This involves establishing a baseline level of performance and comparing the model's performance against this baseline. Additionally, we need to consider factors such as the business context, potential biases, and the importance of different types of errors. Ultimately, a model is considered good enough if it meets the requirements of the specific use case and provides value to the stakeholders.
 
+### So what is establishing a baseline level of performance?
+Establishing a baseline level of performance is the process of creating a simple, easily interpretable model or heuristic that can be used as a benchmark to compare the performance of more complex models.
+
+#### There are several ways to establish a baseline level of performance for a model:
+
+1. ***Simple Models:*** A simple model with basic features can act as a baseline for more complex models. This can provide a starting point for comparison and help to determine if the additional complexity of a more advanced model is worth the effort.
+
+2. ***Human-Level Performance:*** In some cases, human-level performance on a task can serve as a baseline for the model's performance. This is particularly useful in fields such as natural language processing or image recognition, where human-level performance is well established.
+
+3. ***Previous Models:*** If there are existing models for a particular task or problem, their performance can serve as a baseline for comparison. This can help to identify areas where the new model is performing better or worse.
+
+4. ***Random Guessing:*** For classification tasks, random guessing can be used as a baseline. The accuracy of a model should be significantly better than random guessing in order to be considered useful.
+
+Establishing a baseline level of performance is important to understand the level of difficulty of the problem, to identify opportunities for improvement, and to evaluate the performance of the model over time.
+
+<h1><li> Error Analysis & Performance Auditing</li> </h1>
 	
+## Error Analysis
+	
+Error analysis is a process in machine learning model development that involves examining and analyzing the errors made by a model in order to identify patterns and sources of inaccuracies. This involves analyzing the mistakes made by the model on the test set and trying to identify common types of errors or patterns in the misclassified examples.
 
-<h2> Establish </h2>
+The goal of error analysis is to identify areas where the model can be improved, either through adjustments to the algorithm or through additional training data. By understanding the sources of errors and where the model is struggling, developers can make targeted improvements that can lead to better overall performance.
+
+Error analysis can involve a variety of techniques, including visualizing misclassified examples, analyzing confusion matrices, and examining individual model predictions. It is an important step in the iterative process of model development and is often used in combination with other techniques such as hyperparameter tuning and model selection.
+
+***Error Analysis is heart of machine learning model development.***
+
 
 
 
