@@ -99,9 +99,21 @@ These steps provide a high-level overview of the typical stages involved in an M
 - Select and train model(includes hyperparameter tuning)
 - Performing error analysis
 	
+There are two different approaches/philosophies while building machine learning models, they are ***data-centric approach*** and the ***model-centric approach*** to achieve good performance.
 
+- **Data-centric approach:** In the data-centric approach, the focus is on acquiring and preprocessing high-quality data, and selecting appropriate features that capture the essential characteristics of the data. The idea is that if the data is good enough, and the features are informative enough, then any model that is trained on this data will perform well. In this approach, the model is seen as a "black box" that transforms input data into output predictions, and the emphasis is on the quality and quantity of the input data.
 
-<h2> key Challenges in Modelling: </h2>
+- **Model-centric approach:** In the model-centric approach, the focus is on designing and training a sophisticated model that can learn complex patterns and relationships in the data, even if the data is noisy or incomplete. The idea is that if the model is expressive enough, it can capture the underlying structure of the data, and produce accurate predictions even if the input data is imperfect. In this approach, the model is seen as the key to achieving good performance, and the emphasis is on designing and training a model that is well-suited to the task at hand.
+
+<p>Both approaches have their advantages and disadvantages, and the choice of approach depends on the specific problem and domain. The data-centric approach is often more effective when the data is plentiful and well-structured, while the model-centric approach is often more effective when the data is complex or noisy, or when the problem requires a high degree of accuracy or flexibility.</p>
+
+## The key challenges in model development are:
+
+1. **Doing well on the training set:** The model should fit the training data well and achieve a low training error. This ensures that the model is capturing the patterns in the training data and can make accurate predictions.
+
+2. **Doing well on the test set:** The model should generalize well to new, unseen data and achieve a low test error. This ensures that the model is not overfitting to the training data and can make accurate predictions on new data.
+
+3. **Doing well on business metric:** The model should perform well on the specific business metric that it is designed to optimize. For example, If the model is being used to improve customer service or support, then the business metric might be customer satisfaction scores. This ensures that the model is actually solving the problem it was designed to solve, and is delivering value to the business.
 	
 
 
