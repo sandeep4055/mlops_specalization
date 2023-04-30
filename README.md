@@ -1,4 +1,5 @@
 # Mlops_specalization
+
  
 <h2>This repo has the notes and code of <strong>Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)</strong></h2>
 
@@ -187,8 +188,7 @@ Error analysis can involve a variety of techniques, including visualizing miscla
 - Suppose you are building a sentiment analysis model for a restaurant review website. You train your model on a dataset of customer reviews and their corresponding positive or negative sentiment labels. However, when you evaluate the model on a test set of reviews, you find that it is performing poorly on negative reviews.To conduct an error analysis, you might manually review a sample of the misclassified negative reviews to identify common errors the model is making. For example, you might find that the model is misclassifying reviews that use sarcasm or humor as negative, even though the overall sentiment is positive. Armed with this information, you could then modify the training data or adjust the model to better handle this type of language.
 	
 ### Some Error Analysis Techniques :
-
----
+#
 
 There are several error analysis techniques that can be used in machine learning model development, including:
 
@@ -207,8 +207,7 @@ There are several error analysis techniques that can be used in machine learning
 These techniques can help identify patterns in the model's errors and provide insights into areas that may require further tuning or adjustment.
 	
 ### Prioritizing  error patterns :
-
----
+#
 	
 Prioritizing which error patterns to address depends on several factors, including:
 
