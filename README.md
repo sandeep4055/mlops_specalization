@@ -167,6 +167,20 @@ Establishing a baseline level of performance is the process of creating a simple
 
 Establishing a baseline level of performance is important to understand the level of difficulty of the problem, to identify opportunities for improvement, and to evaluate the performance of the model over time.
 
+# Experiment tracking
+
+Experiment tracking in ML refers to the practice of recording and organizing experiments conducted during model development in order to enable better collaboration, replication, and analysis. It involves capturing details such as the model architecture, hyperparameters, training data, and evaluation metrics.
+
+The benefits of experiment tracking include:
+
+1. **Reproducibility:** By keeping a record of each experiment, it becomes easier to reproduce results and build on past work.
+
+2. **Collaboration:** Teams can work together more effectively by sharing experiment details, avoiding duplicated work, and building on each other's findings.
+
+3. **Analysis:** Experiment tracking enables data scientists to analyze the results of multiple experiments to identify patterns, test hypotheses, and refine models.
+
+There are several tools and frameworks available for experiment tracking in ML, including open-source options like MLflow, DVC, and Neptune, as well as commercial products like Wandb, Comet, sagemaker studio, and Domino. These tools typically offer features like experiment versioning, visualization, and integration with other ML development tools.
+
 <h1><li> Error Analysis & Performance Auditing</li> </h1>
 	
 ## Error Analysis
