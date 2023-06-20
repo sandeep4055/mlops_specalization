@@ -84,7 +84,7 @@ These steps provide a high-level overview of the typical stages involved in an M
 
 **Scoping** in MLOps refers to defining the boundaries and extent of an MLOps project or initiative. It involves clearly identifying and specifying the goals, objectives, and scope of work for implementing MLOps practices within an organization.
 
-The steps in the scoping process for an AI project are as follows:
+#### The steps in the scoping process for an AI project are as follows:
 
 **Identify Business Problem**: Start by brainstorming and identifying the specific business problem or opportunity that you want to address using AI. This could be a pain point, a challenge, or a potential improvement area within your organization.
 
@@ -98,7 +98,7 @@ The steps in the scoping process for an AI project are as follows:
 
 By following these steps, organizations can effectively scope an AI project, ensuring alignment between business objectives and AI solutions. This process helps in setting realistic expectations, allocating resources appropriately, and ultimately achieving successful implementation of AI solutions to address business problems.
 
-When scoping an MLOps project, there are several key considerations:
+#### When scoping an MLOps project, there are several key considerations:
 
 **Project Goals**: Determine the specific objectives and outcomes the MLOps project aims to achieve. This could include improving model deployment speed, enhancing model monitoring and management, increasing automation in the ML lifecycle, or ensuring better collaboration between data scientists and operations teams.
 
