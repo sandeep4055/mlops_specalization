@@ -1,5 +1,19 @@
 # Mlops_specalization
 
+# Table of Contents :
+- [What is AI System](#what-is-ai-system)
+- [AI system vs ML system](#ai-system-vs-ml-system)
+- [What is AI/ML project?](#what-is-aiml-project)
+- [Steps of an Ml Project](#steps-of-an-ml-project)
+- [Here's a more detailed breakdown of each step involved in an ML project](#heres-a-more-detailed-breakdown-of-each-step-involved-in-an-ml-project)
+	- [Scoping](#scoping)
+	- [Data](#data)
+	- [Modelling](#modelling)
+	- [Deployment](#deployment)
+
+
+
+
  
 <h2>This repo has the notes and code of <strong>Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)</strong></h2>
 
@@ -80,7 +94,8 @@ These steps provide a high-level overview of the typical stages involved in an M
 # Here's a more detailed breakdown of each step involved in an ML project:
 
 <ol>
-<h1> <li> SCOPING </li> </h1>
+
+# SCOPING 
 
 **Scoping** in MLOps refers to defining the boundaries and extent of an MLOps project or initiative. It involves clearly identifying and specifying the goals, objectives, and scope of work for implementing MLOps practices within an organization.
 
@@ -116,7 +131,7 @@ By scoping an MLOps project effectively, organizations can ensure a clear unders
 
 
 
-<h1> <li> DATA </li> </h1>
+# DATA 
 
 In simple terms, **data** refers to information or facts that are collected or recorded. It can be any piece of information that is meaningful and can be stored, processed, or analyzed. Data can come in different forms, such as numbers, text, images, audio, or video. It is the raw material from which insights and knowledge can be derived.
 
@@ -296,7 +311,7 @@ Data lineage shows the flow of data within the recipe app, illustrating how the 
 These concepts help in understanding and managing the recipe data, allowing users to search for recipes based on specific criteria, maintain a history of changes, and ensure transparency in how the data is used within the app.
 
 
-<h1> <li> Modelling </li> </h1>
+# Modelling 
 	
 
 
@@ -479,7 +494,7 @@ Machine learning auditing frameworks are a set of tools and methodologies used t
 These frameworks can be used to audit the performance and behavior of machine learning models, and to identify and address issues related to fairness, accuracy, privacy, and security.
 
 
-<h1><li> Deployment  </li></h1>
+# Deployment 
  
 <ul>
  <li>
