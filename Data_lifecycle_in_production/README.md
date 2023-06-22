@@ -1,9 +1,11 @@
 # Table of Contents
 - [Overview Of Machine learning in Production](#overview-of-machine-learning-in-production)
-- [Brief view of Ml Pipelines]
-- [DAGS]
-- [Pipeline Orchestration Frameworks in MLOps]
-- [TFX in MLOps]
+- [Brief view of Ml Pipelines](#brief-view-of-ml-pipelines)
+- [DAGS](#dags)
+- [Pipeline Orchestration Frameworks in MLOps](#pipeline-orchestration-frameworks-in-mlops)
+- [TFX in MLOps](#tfx-in-mlops)
+- [TFX Portability Compared to Other Pipeline Orchestration Frameworks](#tfx-portability-compared-to-other-pipeline-orchestration-frameworks)
+- []
 
 
 
@@ -94,7 +96,7 @@ Choosing the right pipeline orchestration framework for your MLOps workflow can 
   
 - It's also a good idea to try out different frameworks and see which one works best for your team. Many frameworks offer free trials or open-source versions that you can use to test their features and functionality.
   
-- Finally, you should also consider the long-term viability of the framework. You want a framework that is actively maintained and has a roadmap for future development. Frameworks with large and active communities, such as Airflow and Kubeflow, are more likely to have long-term viability and continued development.
+- Finally, you should also consider the long-term viability of the framework. You want a framework that is actively maintained and has a road-map for future development. Frameworks with large and active communities, such as Airflow and Kubeflow, are more likely to have long-term viability and continued development.
 In conclusion, choosing the right pipeline orchestration framework for your MLOps workflow requires careful consideration of several aspects, including scalability, community support, ease of use, integration with cloud platforms, and specific features. By evaluating each framework based on your specific needs and testing them out, you can find the right framework for your team and ensure the long-term success of your MLOps workflow.
 
 # TFX in MLOps
@@ -111,9 +113,11 @@ However, when choosing a pipeline orchestration framework, it's important to con
 In conclusion, TFX is a powerful platform for deploying production ML pipelines that can be integrated with popular orchestration frameworks such as Apache Airflow and Kubeflow. When choosing a pipeline orchestration framework for your MLOps workflow, it's important to consider several aspects and evaluate each framework based on your specific needs.
 
 # TFX Portability Compared to Other Pipeline Orchestration Frameworks
-TFX is designed to be portable to multiple environments and orchestration frameworks, including Apache Airflow, Apache Beam, and Kubeflow. This means that TFX pipelines can be run on various orchestrators, making it easier to implement MLOps and automate the ML proces.
+TFX is designed to be portable to multiple environments and orchestration frameworks, including Apache Airflow, Apache Beam, and Kubeflow. This means that TFX pipelines can be run on various orchestrators, making it easier to implement MLOps and automate the ML process.
 
 In terms of portability, TFX is comparable to other pipeline orchestration frameworks such as Apache Airflow and Kubeflow. Apache Airflow is a general-purpose workflow management system that can be used for a wide range of tasks and can be run on various environments, including on-premise and cloud platforms. Kubeflow is an open-source ML platform dedicated to making deployments of ML workflows on Kubernetes simple, portable.
+
+
 
 
 
