@@ -122,7 +122,7 @@ In terms of portability, TFX is comparable to other pipeline orchestration frame
 
 # Importance Of DATA
 
-
+![Screenshot (33)](https://github.com/sandeep4055/mlops_specalization/assets/70133134/e9601d11-dcac-452e-8ef5-c3dd93c991e4)
 
 Data is a crucial component in the field of machine learning. It refers to the set of observations or measurements that can be used to train a machine-learning model. The quality and quantity of data available for training and testing play a significant role in determining the performance of a machine-learning model. Here are some of the key reasons why data is important in machine learning:
 
