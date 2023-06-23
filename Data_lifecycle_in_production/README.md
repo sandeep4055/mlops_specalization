@@ -124,6 +124,8 @@ In terms of portability, TFX is comparable to other pipeline orchestration frame
 
 # Importance Of DATA
 
+
+
 Data is a crucial component in the field of machine learning. It refers to the set of observations or measurements that can be used to train a machine-learning model. The quality and quantity of data available for training and testing play a significant role in determining the performance of a machine-learning model. Here are some of the key reasons why data is important in machine learning:
 
 1. **Quality of Data**: The quality of data used for training machine learning models is critical to the performance of the model. Poor quality data can lead to inaccurate predictions and classifications. It is important to ensure that the data is clean, accurate, and relevant to the problem being solved.
