@@ -9,6 +9,7 @@
 - [Data Collection and Monitoring](#data-collection-and-monitoring)
 - [Data Labelling](#data-labelling)
 - [Data Validation](#data-validation)
+- [Data Skew & Data drift](#data-drift-and-data-skew)
 
 
 
