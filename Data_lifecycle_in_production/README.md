@@ -6,6 +6,8 @@
 - [TFX in MLOps](#tfx-in-mlops)
 - [TFX Portability Compared to Other Pipeline Orchestration Frameworks](#tfx-portability-compared-to-other-pipeline-orchestration-frameworks)
 - [Importance of Data](#importance-of-data)
+- [Data Collection and Monitoring](#data-collection-and-monitoring)
+- [Data Labelling](#data-labelling)
 
 
 
@@ -176,7 +178,8 @@ In conclusion, data collection is a crucial step in ML that involves several ste
 
 - Suppose a company has an ML model that predicts customer churn based on customer demographics, purchase history, and customer service interactions. Over time, the company expands its product offerings, and the customer base changes. The new products may attract a different type of customer, and the customer demographics may change. This change in the customer base can lead to data drift, where the input data changes over time. Additionally, the company may change its customer service policies, which can lead to a change in the relationship between input and output data, leading to concept drift. If the company does not monitor the performance of the model and retrain it with new data and additional features, the model's performance may degrade, leading to poor predictions and customer churn.
 
-Data Labelling:
+# Data Labelling:
+
 **Data labeling**, also known as data annotation, is the process of adding metadata or tags to raw data such as images, videos, text, and audio to show a machine learning model what class of objects the data belongs to and help it learn to identify that particular class of objects when encountered in data without a tag
 
 ### Here are some key points about data labeling based on the search results:
