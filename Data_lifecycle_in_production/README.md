@@ -8,6 +8,7 @@
 - [Importance of Data](#importance-of-data)
 - [Data Collection and Monitoring](#data-collection-and-monitoring)
 - [Data Labelling](#data-labelling)
+- [Data Validation](#data-validation)
 
 
 
@@ -217,6 +218,51 @@ Let's say you have a dataset of images of fruits, and you want to build a machin
 - **Dataset Split**: Split the labeled dataset into training, validation, and test sets. The training set is used to train the ML model, the validation set is used for fine-tuning and hyperparameter tuning, and the test set is used to evaluate the final performance of the model.
 
 Data labeling can be a time-consuming and labor-intensive process, especially for large datasets. It requires domain expertise and careful consideration to ensure the accuracy and reliability of the labeled data. However, high-quality labeled data is crucial for building effective ML models that can generalize well and make accurate predictions on new, unseen data.
+
+
+# Data Validation
+
+**Data validation** is an important step in the machine learning pipeline that ensures the quality, correctness, and consistency of the data used for training and evaluating ML models. It involves checking the data against predefined rules or criteria to identify any anomalies, errors, or inconsistencies that may affect the performance and reliability of the models.
+
+### Here's a simplified example of data validation in the context of a classification problem:
+
+**Data Consistency**: Check if the data is consistent and follows the expected format. For example, ensure that the data types of features match the expected types, categorical variables have valid values, and numerical variables fall within the expected ranges.
+
+**Missing Values:** Identify and handle missing values appropriately. Missing values can lead to biased or incorrect model predictions. You can choose to remove instances with missing values, impute them using statistical techniques, or consider them as a separate category if relevant to your problem.
+
+**Outliers**: Detect and handle outliers in the data. Outliers are data points that significantly deviate from the overall pattern of the data and can influence the model's behavior. You can choose to remove outliers, transform them, or handle them using specialized techniques depending on your problem and the nature of the outliers.
+
+**Imbalanced Classes**: Address class imbalance issues if present in the data. Class imbalance occurs when the number of instances in different classes is significantly unequal. It can lead to biased model performance. Techniques such as oversampling, undersampling, or using weighted loss functions can help mitigate class imbalance.
+
+**Cross-Validation**: Perform cross-validation to assess the generalization performance of the ML models. Cross-validation involves splitting the data into multiple folds and training/evaluating the models on different combinations of these folds. It helps estimate the model's performance on unseen data and detects any overfitting or underfitting issues.
+
+**Data validation** is an iterative process, and it requires careful analysis and domain expertise to define appropriate validation rules and criteria specific to your problem. By ensuring the quality and integrity of the data, data validation helps in building reliable and accurate ML models.
+
+# Data drift and Data skew: 
+
+Data drift and data skew are two important concepts related to changes in data over time in the context of machine learning.
+
+Data Drift:
+Data drift refers to the phenomenon where the statistical properties of the input data used for training a machine learning model change over time. It occurs when the data distribution in the production environment (where the model is deployed) deviates from the data distribution used during model training. In other words, the assumptions made during model development are no longer valid due to the changes in the input data.
+
+Types of Data Drift:
+
+Concept Drift: Concept drift occurs when the underlying relationships between input features and the target variable change over time. It can happen due to various factors, such as changes in user behavior, market conditions, or external events. For example, in a customer churn prediction model, the factors that influence customer behavior may change over time, requiring the model to adapt to these new patterns.
+
+Data Source Drift: Data source drift happens when the source of the input data changes. This can occur when the data is collected from different sensors, devices, or systems with different characteristics or distributions. For example, if a model is trained on data collected from one type of sensor and then deployed with data from a different type of sensor, the differences in data characteristics can lead to data source drift.
+
+**Schema skew** and **distribution skew** are two types of data skew that can impact the accuracy and quality of machine learning (ML) models. Here are some key points based on the search results:
+
+- Schema skew occurs when the training and serving data do not conform to the same schema. Both training and serving data are expected to adhere to the same schema, and any expected deviations between the two should be specified through environments field in the schema.
+
+- Feature skew occurs when the feature values that a model trains on are different from the feature values that it sees at serving time. For example, this can happen when a data source that provides some feature values is modified between training and serving time or there is different logic for generating features between training and serving.
+
+- Distribution skew occurs when the distribution of feature values for training data is significantly different from serving data. This skew can be the result of choosing the wrong training dataset to represent real-world data or when the real-world data changes over time.
+
+In conclusion, schema skew and distribution skew are two types of data skew that can impact the accuracy and quality of ML models. Schema skew occurs when the training and serving data do not conform to the same schema, while distribution skew occurs when the distribution of feature values for training data is significantly different from serving data. Feature skew can also occur when the feature values that a model trains on are different from the feature values that it sees at serving time.
+
+
+
 
 
 # Feature selection and Feature engineering
