@@ -12,8 +12,6 @@
 	- [Deployment](#deployment)
 
 
-
-
  
 <h2>This repo has the notes and code of <strong>Machine Learning Engineering for Production (MLOps) Specialization on Coursera (offered by deeplearning.ai)</strong></h2>
 

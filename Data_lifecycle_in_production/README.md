@@ -10,6 +10,11 @@
 - [Data Labelling](#data-labelling)
 - [Data Validation](#data-validation)
 - [Data Skew & Data drift](#data-drift-and-data-skew)
+- [TFDV(Tensorflow Data Validation)](#tensorflow-data-validation)
+- [TEST]
+
+
+
 
 
 
@@ -263,13 +268,31 @@ Data Source Drift: Data source drift happens when the source of the input data c
 In conclusion, schema skew and distribution skew are two types of data skew that can impact the accuracy and quality of ML models. Schema skew occurs when the training and serving data do not conform to the same schema, while distribution skew occurs when the distribution of feature values for training data is significantly different from serving data. Feature skew can also occur when the feature values that a model trains on are different from the feature values that it sees at serving time.
 
 
+# Tensorflow DATA Validation
 
+TensorFlow Data Validation (TFDV) is a library for exploring and validating machine learning data. It is designed to be highly scalable and to work well with TensorFlow and TensorFlow Extended (TFX). 
 
+Here are some key points based on the search results:
 
-# Feature selection and Feature engineering
+- Data validation is an important step in machine learning to ensure the quality and accuracy of input data before it is used to develop models and insights.
 
-# Data Pipeline
+- TFDV can analyze training and serving data to compute descriptive statistics, infer a schema, and detect data anomalies.
 
+- TFDV can be used to investigate and visualize your dataset, including looking at descriptive statistics, inferring a schema, checking for and fixing anomalies, and checking for drift and skew in your dataset.
+
+- TFDV can be used to generate feature statistics from CSV files or TFRecord files.
+
+- TFDV can be used to create and validate a schema for your data, which describes the expected types, shapes, and values of your features.
+
+- TFDV can be used to detect anomalies in your data, such as missing features, out-of-range values, or wrong feature types.
+
+- TFDV can be used to monitor for skew and drift in your data, which can help you detect and handle model performance degradation caused by data and concept drift.
+
+- TFDV can be used to create datasets from numpy arrays and create validation datasets manually.
+
+``` 
+Note: If the dataset is small use **Pandas profiling** , if the dataset is large then we can use **TFDV** to do DATA ANALYSIS & DATA VALIDATION at scale
+```
 
 
 
